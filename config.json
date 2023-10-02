@@ -1,0 +1,15 @@
+{
+    "port": "8081",
+    "url": "http://vendexhosting.online/",
+    "oauth": {
+        "clientId": "906845644176625664",
+        "callbackURL": "http://vendexhosting.online/login/callback",
+        "scopes": ["identify"]
+    },
+    "session": {
+        "secret": "oichip",
+        "cookie": {
+            "maxAge": 604800000
+        }
+    }
+}

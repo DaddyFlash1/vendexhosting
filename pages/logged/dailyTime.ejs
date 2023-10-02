@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/dashboard.css">
+    <link rel="icon" href="../assets/images/foxycake.png">
+    <title>Vendex | Daily</title>
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="/"><img
+                src="../assets/images/Foxy.png" alt="logo"></a>
+        <nav>
+            <ul class="nav__links">
+                <li> <a href="/github">GitHub</a></li>
+                <li><a href="/privacy">ToS</a></li>
+                <li><a href="/discord">Support</a></li>
+                <li><a href="/team">Teams</a></li>
+                <li><a href="/commands">Comands</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="/dashboard">Dashboard</a>
+        <p class="menu cta">Menu</p>
+    </header>
+
+    <main>
+        <img class="main__image" src="../assets/images/foxymedu.png">
+        <br>
+        <h3>Olá, <%= user.username %>! You already got your daily, try again later!</h3>
+        <div class="action__buttons">
+            <a href="/dashboard" id="daily"><button class="daily-button">To go Back</button></a>
+        </div>
+    </main>
+</body>
+
+</html>
